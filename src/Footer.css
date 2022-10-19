@@ -1,0 +1,45 @@
+.mainFooterDiv{
+    background:#0f0f0f;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+    align-items: center;
+    color:#ffffff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.socialMedia{
+    display: flex;
+}
+.logoEcell{
+width:110px;
+}
+.logoDiv{
+    display: flex;
+  align-items: center;
+}
+.iconsFooter{
+    width: 50px;
+ border-radius: 50px;
+   color: #ffffff;
+   background-color: #ffffff;
+   margin: 8px;
+}
+@media (max-width: 880px) {
+    .mainFooterDiv{
+        display: block;
+       align-items: center;
+       margin: 0;
+
+    }
+    .logoDiv{
+     align-content: center;
+       margin: 0;
+    }
+    .socialMedia{
+        
+    }
+    
+      }

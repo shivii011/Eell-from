@@ -1,0 +1,122 @@
+.mainDiv{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color:#c27422;
+}
+
+.leftDiv{
+    width: 44.95%;
+    background-color:#0d0d0d;
+    color:#c27422;
+    padding:2% 3% 5% 7% ;
+}
+.rightDiv{
+    width: 45%;
+    background-color:#0d0d0d;
+    color:#c27422
+}
+.rightInnerDiv{
+    background: #c27422;
+    color:#0d0d0d;
+    margin: 9% 18%;
+padding: 1px;
+}
+.icons{
+    background-color: #0d0d0d;
+    color:#c27422;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 20px;
+   padding-left: 31%;
+}
+.icon{
+    background:#c27422;
+    color: #0d0d0d;
+    width: 90px;
+    padding: 4px;
+    margin: 40px;
+    font-size: large;
+    font-weight: 600;
+    border-radius: 2px;
+}
+.img{
+    color: #0d0d0d;
+    align-items: center;
+}
+form{
+text-align: left;
+font-size: large;
+}
+.formInner{
+    margin-top:10px;
+}
+.signUp{
+    text-align: left;
+    font-size: 35px;
+}
+label{
+font-size:25px;
+border-radius: 10px;
+font-weight: 600;
+}
+input{
+width: 350px;
+height: 40px;
+background-color:rgb(197, 197, 197);
+color:#0d0d0d;
+border-radius: 10px;
+font-size:20px;
+color:#0f0f0f
+}
+button{
+    margin: 10px 0;
+    width: 355px;
+    height: 45px;
+  font-weight: 600;
+font-size: 27px;
+border-radius: 10px;
+
+}
+.createButton{
+background-color: #c27422;
+margin-top: 50px;
+color: #0f0f0f;
+}
+.loginButton{
+background-color: #0d0d0d;
+color:#c27422;
+margin: 0;
+border: 2px solid #c27422;
+}
+.or{
+   padding-left:160px;
+   font-weight: 600;
+   font-size: 25px;
+   color:#ffff
+}
+@media (max-width: 1350px) {
+.mainDiv{
+    display: block;
+    margin: 0;
+    padding: 20px;
+}
+.leftDiv{
+    width: 90%;
+}
+.rightDiv{
+    width: 90%;
+ margin-left: 5%;
+ margin-right: 5%;
+    align-items: center; 
+ 
+}
+.rightInnerDiv{
+    margin: 0;
+    align-items: center;
+}
+.icon{
+  padding: 4;
+  margin-left: 18%;
+}
+}
